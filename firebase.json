@@ -1,16 +1,11 @@
 {
   "hosting": {
+    "site": "clickelegance-landing-page",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
