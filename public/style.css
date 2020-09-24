@@ -7,9 +7,8 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-width: 280px;
-  min-height: 100vh;
 }
 
 li {
@@ -69,10 +68,12 @@ nav a:hover {
 
 .logo .click {
   font-size: 2.2em;
+  font-weight: 600;
 }
 
 .logo .elegance {
-  font-size: 1em;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 /* web links */
@@ -176,8 +177,8 @@ p.get-started {
 }
 
 .services li {
-  min-height: 10em;
-  min-width: 10em;
+  min-height: 11em;
+  min-width: 10.5em;
   padding: 1em 2em;
   margin: 1em;
   flex: 0 1 10em;
@@ -205,7 +206,7 @@ p.get-started {
 .footer {
   text-align: center;
   font: 400 1.2em 'Nunito Sans', sans-serif;
-  padding-top: 1.5em;
+  padding: 1.5em .5em .5em;
   border-top: 1px solid #c7c7c7;
 }
 
@@ -265,6 +266,12 @@ p.get-started {
   .web-links ul {
     flex-direction: column;
     align-items: center;
+    width: 280px;
+  }
+
+  .web-links a {
+    min-width: 280px;
+    text-align: center;
   }
 
   .services li {
